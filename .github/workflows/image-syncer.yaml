@@ -41,6 +41,6 @@ jobs:
          skopeo copy docker://docker.io/rancher/rancher:latest docker://${{ secrets.ALI_PERSONAL_DOCKER_REGISTRY_URL}}/endmehub/rancher:latest
 
       #注释 
-         skopeo copy docker://docker.io/kong/httpbin:0.2.3 docker://${{ secrets.ALI_PERSONAL_DOCKER_REGISTRY_URL}}/endmehub/httpbin:0.2.3
-         skopeo copy docker://registry.k8s.io/ubuntu-slim:0.14 docker://${{ secrets.ALI_PERSONAL_DOCKER_REGISTRY_URL}}/endmehub/ubuntu-slim:0.14
+         #skopeo copy docker://docker.io/kong/httpbin:0.2.3 docker://${{ secrets.ALI_PERSONAL_DOCKER_REGISTRY_URL}}/endmehub/httpbin:0.2.3
+         #skopeo copy docker://registry.k8s.io/ubuntu-slim:0.14 docker://${{ secrets.ALI_PERSONAL_DOCKER_REGISTRY_URL}}/endmehub/ubuntu-slim:0.14
          
