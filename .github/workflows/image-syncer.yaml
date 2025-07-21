@@ -38,5 +38,4 @@ jobs:
         
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/rancher/rancher:v2.12-head docker://${{ secrets.ALI_PERSONAL_DOCKER_REGISTRY_URL}}/cloudnativehome/rancher:v2.12-head
-         
+         skopeo copy docker://docker.io/kong/httpbin:0.2.3 docker://${{ secrets.ALI_PERSONAL_DOCKER_REGISTRY_URL}}/cloudnativehome/httpbin:0.2.3
